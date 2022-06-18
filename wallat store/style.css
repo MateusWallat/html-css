@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poiret+One&family=Russo+One&display=swap');
+body{
+    background-image: url(imagens/pexels-shvets-production-9775899.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+    background-position: center top;
+}
+header{
+    background-color: black;
+    padding: 15px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+
+}
+header > h1{
+    font-size: 2em;
+    font-family:'Russo One', 'sans-serif';
+}
+header > p{
+    font-family: 'Poiret One','Russo One' ;
+    color: white;
+    font-size: 0.4em;
+}
+nav{
+    background-color: black;
+}
+nav >a{
+    text-decoration: none;
+    color: white;
+    padding: 13px;
+    font-weight: normal;
+   
+
+}
+nav >a:hover{
+    background-color: white;
+    border-radius: 6px;
+    color: black;
+}
+main{
+    padding: 300px;
+}
+main > p{
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
