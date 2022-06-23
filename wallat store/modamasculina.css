@@ -6,7 +6,9 @@
 }
 body{
     
+    
 }
+
 header{
     background-color: black;
     text-align: center;
@@ -30,7 +32,7 @@ main{
 padding-bottom: 300px;
 }
 main > h2{
-    margin: 20px 10px;
+    margin: 20px 10px ;
     padding: 20px;
     font-size: 2em;
     color: white;
@@ -46,6 +48,12 @@ div{
 
 div >img{
     box-shadow: 7px 0px 7px rgb(27, 27, 27);
+}
+#img1{
+    
+}
+#img1 > img{
+    margin: 40px;
 }
 img:hover{
     zoom:150%;
