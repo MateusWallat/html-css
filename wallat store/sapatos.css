@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Russo+One&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: black;
+    text-align: center;
+    padding: 50px ;
+}
+header >h1{
+    color: white;
+    font-size: 4em;
+    font-variant: small-caps;
+    font-family:'Russo One', 'sans-serif' ;
+}
+header >p{
+    color: white;
+   padding-top: 10px;
+}
+nav{
+    background-color: black;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+}
+nav >a:hover{
+    background-color: white;
+    border-radius: 6px;
+    color: black;
+}
+h2{
+    background-color: black;
+    width: 300px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 12px;
+}
+div{
+    padding: 50px;
+} 
+img{
+    padding: 40px;
+    border-radius: 30px;
+}
+img:hover{
+    zoom: 150%;
+    
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px ;
+}
+footer >p{
+    color: white;
+}
