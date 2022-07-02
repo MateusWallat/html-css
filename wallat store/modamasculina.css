@@ -28,41 +28,51 @@ nav >a{
     text-decoration: none;
     padding: 13px;
 }
+a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+}
 main{
 padding-bottom: 300px;
 }
-main > h2{
-    margin: 20px 10px ;
-    padding: 20px;
-    font-size: 2em;
-    color: white;
+ h2{
     background-color: black;
     width: 300px;
-    height: 12px;
-    
-}
-div{
-    display: inline;   
-    padding: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 12px;
 }
 
-div >img{
-    box-shadow: 7px 0px 7px rgb(27, 27, 27);
+div{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 }
-#img1{
-    
+.item img{
+    box-shadow: 3px 3px 3px 3px rgb(56, 54, 54);
 }
-#img1 > img{
-    margin: 40px;
-}
-img:hover{
+.item img:hover{
     zoom:150%;
 }
+#icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.icon{
+    padding: 5px;
+
+}
+
 footer{
     background-color: black;
-    padding: 20px;
+    padding: 50px;
 }
 footer >p{
     color: white;
     text-align: center;
+    
 }

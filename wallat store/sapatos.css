@@ -32,6 +32,12 @@ nav >a:hover{
     border-radius: 6px;
     color: black;
 }
+a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+
+}
 h2{
     background-color: black;
     width: 300px;
@@ -41,22 +47,36 @@ h2{
     margin-bottom: 60px;
     margin-left: 12px;
 }
-div{
-    padding: 50px;
-} 
-img{
-    padding: 40px;
-    border-radius: 30px;
+main{
+   
 }
-img:hover{
+div{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+} 
+.item img{
+    box-shadow: 3px 3px 3px 3px rgb(56, 54, 54);
+    
+
+}
+.item img:hover{
     zoom: 150%;
     
 }
+
 footer{
     background-color: black;
     text-align: center;
-    padding: 20px ;
+    margin-top: 20px;
+    padding: 50px ;
 }
 footer >p{
     color: white;
 }
+#icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+

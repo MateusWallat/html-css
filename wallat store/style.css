@@ -45,6 +45,12 @@ nav >a:hover{
     border-radius: 6px;
     color: black;
 }
+a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+
+}
 main{
     padding: 300px;
 }
@@ -59,4 +65,13 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+img{
+    padding: 5px;
 }
