@@ -4,6 +4,12 @@
     padding: 0px;
     margin: 0px;
 }
+
+body, html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
 header{
     background-color: black;
     text-align: center;
@@ -48,10 +54,10 @@ h2{
     margin-bottom: 60px;
     margin-left: 12px;
 }
-div{
+.item{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around; 
 } 
 .item img{
     box-shadow: 3px 3px 3px 3px rgb(56, 54, 54);
@@ -71,6 +77,26 @@ div{
 
 }
 
+.carroussel {
+    width: 100%;
+    background-color: #ccc;
+    padding: 50px 0;
+}
+
+.item-test {
+    width: 33.3%;
+    padding: 12px;
+    background-color: blue;
+}
+
+.pic img {
+    width: 100%;
+    display: inline-block;
+}
+
+.img-desc {
+    display: inline-block;
+}
   
 footer{
     background-color: black;
