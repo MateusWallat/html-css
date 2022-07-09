@@ -34,7 +34,8 @@ a:hover{
     border-radius: 6px;
 }
 main{
-padding-bottom: 300px;
+padding-bottom: 200px;
+background-color: rgb(241, 236, 236);
 }
  h2{
     background-color: black;
@@ -46,14 +47,37 @@ padding-bottom: 300px;
     margin-left: 12px;
 }
 
-div{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
+section{
+    display: flex;
+    justify-content: space-around;
 }
-.item img{
-    box-shadow: 3px 3px 3px 3px rgb(56, 54, 54);
+
+.produto{
+    box-shadow: 3px 3px 3px  rgb(56, 54, 54) ;
+    cursor: pointer;
+
 }
+.produto p:hover{
+    transform: rotate(-3deg);
+
+}
+
+img:hover{
+    zoom: 120%;
+}
+
+p{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 3px;
+} 
+
+
+
+
+
+
 .item img:hover{
     zoom:150%;
 }

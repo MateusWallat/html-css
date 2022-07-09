@@ -48,22 +48,33 @@ h2{
     margin-left: 12px;
 }
 main{
-   
+    padding-bottom: 100px;
+    background-color: rgb(241, 236, 236); 
 }
-div{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-} 
-.item img{
-    box-shadow: 3px 3px 3px 3px rgb(56, 54, 54);
-    
+section{
+    display: flex;
+    justify-content: space-around;
+}
+.produto{
+    box-shadow: 3px 3px 3px  rgb(56, 54, 54) ;
+    cursor: pointer;
 
 }
-.item img:hover{
-    zoom: 150%;
-    
+.produto p:hover{
+    transform: rotate(-3deg);
+
 }
+
+img:hover{
+    zoom: 120%;
+}
+
+p{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 3px;
+} 
 
 footer{
     background-color: black;
@@ -74,6 +85,11 @@ footer{
 footer >p{
     color: white;
 }
+.icon{
+    padding: 5px;
+
+}
+
 #icones{
     display: flex;
     flex-direction: row;

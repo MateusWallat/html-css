@@ -5,9 +5,11 @@
     margin: 0px;
 }
 
-body, html {
-    height: 100%;
-    box-sizing: border-box;
+
+
+main{
+padding-bottom: 100px;
+background-color: rgb(241, 236, 236);
 }
 
 header{
@@ -54,18 +56,24 @@ h2{
     margin-bottom: 60px;
     margin-left: 12px;
 }
-.item{
+section{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around; 
-} 
-.item img{
-    box-shadow: 3px 3px 3px 3px rgb(56, 54, 54);
+    justify-content: space-around;
 }
-.item img:hover{
-    zoom: 150%;
+.produto{
+    box-shadow: 3px 3px 3px  rgb(56, 54, 54) ;
+    cursor: pointer;
 
 }
+.produto p:hover{
+    transform: rotate(-3deg);
+
+}
+
+img:hover{
+    zoom: 120%;
+}
+
 
 #icones{
     display: flex;
@@ -77,27 +85,13 @@ h2{
 
 }
 
-.carroussel {
-    width: 100%;
-    background-color: #ccc;
-    padding: 50px 0;
-}
+p{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 3px;
+} 
 
-.item-test {
-    width: 33.3%;
-    padding: 12px;
-    background-color: blue;
-}
-
-.pic img {
-    width: 100%;
-    display: inline-block;
-}
-
-.img-desc {
-    display: inline-block;
-}
-  
 footer{
     background-color: black;
     text-align: center;
